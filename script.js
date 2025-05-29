@@ -145,11 +145,11 @@ function Spin() {
     if (!checkMoney()) return;
 
     deductBetAmount(bet);
-    console.log(`Bet: ${bet}, WinMoney: ${winmoney}, TakeMoney: ${takemoney}`);
     audioSpin.play();
     showMoney();
     disableBtns();
     getColumns();
+    console.log(`Bet: ${bet}, WinMoney: ${winmoney}, TakeMoney: ${takemoney}`);
 
     let tr = 1;
     for (const c of cols) {
