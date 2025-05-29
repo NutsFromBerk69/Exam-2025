@@ -228,9 +228,9 @@ function checkWin() {
         stopspin = true;
         const cnt = getCountCopies(arrC2);
         setBG(arrC2, 1);
-        if (cnt === 3) resL2 = 100 * bet;
-        else if (cnt === 4) resL2 = 1000 * bet;
-        else if (cnt === 5) resL2 = 100000 * bet;
+        if (cnt === 3) resL2 = 10 * bet;
+        else if (cnt === 4) resL2 = 100 * bet;
+        else if (cnt === 5) resL2 = 1000 * bet;
     }
 
     if (arrC3.length > 0) {
